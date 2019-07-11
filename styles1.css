@@ -1,4 +1,30 @@
 .bg-secondary
 {
-    background-color:#372D2D !important;
+    background-color:#211b1b !important;
+}
+.carousel{
+    padding-top:30px;
+}
+.carousel-inner{
+    height : 400px;
+    
+}
+.carousel-item img{
+    height : 400px;
+    width : 100%;
+}
+
+.row{
+    padding:30px;
+    margin : 0px!important;
+}
+footer{
+    background-color:#211b1b !important;    
+   
+}
+
+.footerText{
+    color:white;
+    margin-bottom : 0px;
+    
 }
