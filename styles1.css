@@ -79,6 +79,9 @@ ul .nav-link:hover{
     
 }
 
+.card-body p{
+    margin-top:50px;
+}
 .row{
     padding:30px;
     margin : 0px!important;
@@ -87,6 +90,10 @@ footer{
     background-color:#211b1b !important;    
     
 }
+footer .social{
+    margin : 0px 40px !important;
+}
+
 .copyright{
     color:white;
     margin:0px;
@@ -102,7 +109,7 @@ footer{
 .footer-link{
     
     display:inline-block;
-    margin-right: 30px;
+    margin: 0px 137px;
     color : white;
     
 }
@@ -113,7 +120,7 @@ footer{
 
 .footer-second{
     color:white;
-
+    font-size: 12px;
 }
 
 footer .row{
