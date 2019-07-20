@@ -44,8 +44,8 @@
     font-weight: 600;
 }
 .nav-item{
-    margin-right:30px;
-    margin-left:30px;
+    margin-right:5px;
+    margin-left:5px;
 }
 
 .links{
@@ -59,6 +59,9 @@ ul .nav-link:hover{
     font-weight: 800;
 }
 
+.dropdown-menu{
+    left : -100px;
+}
 
 .carousel-container{
     padding: 15px 15px;
@@ -133,4 +136,13 @@ footer .fa{
 }
 footer .social{
     margin: 0px 10px;
+}
+/*Contact Us*/
+.contact-us h1{
+    color:darkgreen;
+    margin-top:20px;
+    text-align: center;
+}
+.contact-us-p{
+    text-align:center;
 }
