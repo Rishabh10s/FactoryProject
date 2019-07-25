@@ -4,9 +4,7 @@
     
     
 }
-.html{
-    height:100%;
-}
+
 .bg-secondary
 {
     background-color:white !important;
@@ -46,6 +44,19 @@
     color: darkgreen;
     font-weight: 600;
 }
+
+.nav-link .fa{
+    -webkit-transition: 0.6s ease-out;
+    -moz-transition:  0.6s ease-out;
+    transition:  0.6s ease-out;
+}
+
+.nav-link .fa :hover{
+    -webkit-transform: rotateY(720deg);
+      -moz-transform: rotateY(720deg);
+      transform: rotateY(720deg); 
+}
+
 .nav-item{
     margin-right:5px;
     margin-left:5px;
@@ -95,11 +106,18 @@ ul .nav-link:hover{
 footer{
  
     background-color:#211b1b !important;    
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    
 }
+
+@media (min-height:859px){
+    footer{
+        position: absolute;
+        right:0;
+        left:0;
+        bottom:0;
+    }
+}
+
 footer .social{
     margin : 0px 40px !important;
 }
@@ -156,4 +174,15 @@ footer .social{
 
 .contact-us .icons{
     color:darkgreen;
+}
+
+
+/*Services*/
+.services-wrapper .heading{
+    text-align: center;
+}
+
+.services-wrapper .row img{
+    height:300px;
+    width:400px;
 }
