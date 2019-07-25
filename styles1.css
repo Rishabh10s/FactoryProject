@@ -4,6 +4,9 @@
     
     
 }
+.html{
+    height:100%;
+}
 .bg-secondary
 {
     background-color:white !important;
@@ -90,8 +93,12 @@ ul .nav-link:hover{
     margin : 0px!important;
 }
 footer{
+ 
     background-color:#211b1b !important;    
-    
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 footer .social{
     margin : 0px 40px !important;
@@ -145,4 +152,8 @@ footer .social{
 }
 .contact-us-p{
     text-align:center;
+}
+
+.contact-us .icons{
+    color:darkgreen;
 }
