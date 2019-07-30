@@ -4,15 +4,18 @@
     
     
 }
-
+body{
+    background-color:rgba(240,248,255,0.2) !important;
+}
 .bg-secondary
 {
-    background-color:white !important;
+    background-color:rgba(240,248,255,0.2) !important;
 }
 .navbar-brand{
     position: absolute;
 
 }
+
 .navbar{
     height: 80px;
     box-shadow:0px 0px 12px 0px;
@@ -182,13 +185,14 @@ footer .social{
 }
 .flip {
     height: 199px;
-    width: 300px;
+    width: 350px;
     margin-bottom:85px;
     margin-top:25px;
+    
 
 }
 .flip img {
-    width: 300px;
+    width: 350px;
     height: 199px;
 }
 .flip .back {
@@ -211,7 +215,9 @@ footer .social{
 
 .ajmer::before{
     background:url('./Client Logos/Ajmer Industries.jpg') no-repeat;
-    background-size: 300px 199px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    background-size: 350px 199px;
     background-color:lightblue;
     opacity:0.1;
     
@@ -219,87 +225,121 @@ footer .social{
 }
 .berger::before{
     background: url('./Client Logos/Berger.jpg');
-    background-size: 300px 199px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    background-size: 350px 199px;
     opacity:0.2;
 }
 .bikaji::before{
     background: url('./Client Logos/Bikaji.jpg') no-repeat;
-    background-size: 300px 199px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    background-size: 350px 199px;
     opacity:0.2;
 
 }
 .Carlsberg::before{
     background: url('./Client Logos/Carlsberg.jpg') no-repeat;
-    background-size: 300px 199px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    background-size: 350px 199px;
     opacity:0.2;
 
 }
 .creambell::before{
     background: url('./Client Logos/Creambell.jpg') no-repeat;
-    background-size: 300px 199px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    background-size: 350px 199px;
     opacity:0.2;
 
 }
 .ginni::before{
     background: url('./Client Logos/Ginni international.jpg') no-repeat;
-    background-size: 300px 199px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    background-size: 350px 199px;
     opacity:0.2;
 }
 .gls::before{
     background: url('./Client Logos/GLS Film industries.jpg') no-repeat;
-    background-size: 300px 199px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    background-size: 350px 199px;
     opacity:0.2;
 
 }
 .indo::before{
     background: url('./Client Logos/Indonissin.jpg') no-repeat;
-    background-size: 300px 199px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    background-size: 350px 199px;
     opacity:0.2;
 }
 .merino::before{
     background: url('./Client Logos/Merino.jpg') no-repeat;
-    background-size: 300px 199px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    background-size: 350px 199px;
     opacity:0.2;
 
 
 }
 .rt::before{
     background: url('./Client Logos/RT Packaging.jpg') no-repeat;
-    background-size: 300px 199px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    background-size: 350px 199px;
     opacity:0.2;
 }
 .sang::before{
     background: url('./Client Logos/Sangneriya Spinning mills ltd..jpg') no-repeat;
-    background-size: 300px 199px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    background-size: 350px 199px;
     opacity:0.2;
 }
 .skiper::before{
     background: url('./Client Logos/Skipper seil.png') no-repeat;
-    background-size: 300px 199px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    background-size: 350px 199px;
     opacity:0.2;
 
 }
 .unipro::before{
     background: url('./Client Logos/Uniproduct India Ltd..jpg') no-repeat;
-    background-size: 300px 199px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    background-size: 350px 199px;
     opacity:0.2;
 
 }
 .veeba::before{
     background: url('./Client Logos/Veeba foods.jpg') no-repeat;
-    background-size: 300px 199px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    background-size: 350px 199px;
     opacity:0.2;
 
 }
 .yansefu::before{
     background: url('./Client Logos/Yansefu Inks.jpg') no-repeat;
-    background-size: 300px 199px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    background-size: 350px 199px;
     opacity:0.2;
 
 }
 
 .contact-us .icons{
     color:darkgreen;
+}
+.front{
+    box-shadow: 1px 0px 1px 0px #211b1b;
+}
+.back{
+    box-shadow: 1px 0px 1px 0px #211b1b;
 }
 
 
@@ -309,6 +349,6 @@ footer .social{
 }
 
 .services-wrapper .row img{
-    height:300px;
+    height:350px;
     width:400px;
 }
