@@ -95,10 +95,7 @@ ul .nav-link:hover{
 footer{
  
     background-color:#211b1b !important;    
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+   
 }
 footer .social{
     margin : 0px 40px !important;
