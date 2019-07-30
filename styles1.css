@@ -4,9 +4,7 @@
     
     
 }
-.html{
-    height:100%;
-}
+
 .bg-secondary
 {
     background-color:white !important;
@@ -46,6 +44,19 @@
     color: darkgreen;
     font-weight: 600;
 }
+
+.nav-link .fa{
+    -webkit-transition: 0.6s ease-out;
+    -moz-transition:  0.6s ease-out;
+    transition:  0.6s ease-out;
+}
+
+.nav-link .fa :hover{
+    -webkit-transform: rotateY(720deg);
+      -moz-transform: rotateY(720deg);
+      transform: rotateY(720deg); 
+}
+
 .nav-item{
     margin-right:5px;
     margin-left:5px;
@@ -97,6 +108,16 @@ footer{
     background-color:#211b1b !important;    
    
 }
+
+@media (min-height:859px){
+    footer{
+        position: absolute;
+        right:0;
+        left:0;
+        bottom:0;
+    }
+}
+
 footer .social{
     margin : 0px 40px !important;
 }
@@ -176,7 +197,7 @@ footer .social{
     
     
     position: relative;
-    border: 1px solid black;
+    
 }
 
 .back::before{
@@ -189,7 +210,7 @@ footer .social{
 }
 
 .ajmer::before{
-    background:url('/Client Logos/Ajmer Industries.jpg') no-repeat;
+    background:url('./Client Logos/Ajmer Industries.jpg') no-repeat;
     background-size: 300px 199px;
     background-color:lightblue;
     opacity:0.1;
@@ -197,81 +218,81 @@ footer .social{
     
 }
 .berger::before{
-    background: url('/Client Logos/Berger.jpg');
+    background: url('./Client Logos/Berger.jpg');
     background-size: 300px 199px;
     opacity:0.2;
 }
 .bikaji::before{
-    background: url('/Client Logos/Bikaji.jpg') no-repeat;
+    background: url('./Client Logos/Bikaji.jpg') no-repeat;
     background-size: 300px 199px;
     opacity:0.2;
 
 }
 .Carlsberg::before{
-    background: url('/Client Logos/Carlsberg.jpg') no-repeat;
+    background: url('./Client Logos/Carlsberg.jpg') no-repeat;
     background-size: 300px 199px;
     opacity:0.2;
 
 }
 .creambell::before{
-    background: url('/Client Logos/Creambell.jpg') no-repeat;
+    background: url('./Client Logos/Creambell.jpg') no-repeat;
     background-size: 300px 199px;
     opacity:0.2;
 
 }
 .ginni::before{
-    background: url('/Client Logos/Ginni international.jpg') no-repeat;
+    background: url('./Client Logos/Ginni international.jpg') no-repeat;
     background-size: 300px 199px;
     opacity:0.2;
 }
 .gls::before{
-    background: url('/Client Logos/GLS Film industries.jpg') no-repeat;
+    background: url('./Client Logos/GLS Film industries.jpg') no-repeat;
     background-size: 300px 199px;
     opacity:0.2;
 
 }
 .indo::before{
-    background: url('/Client Logos/Indonissin.jpg') no-repeat;
+    background: url('./Client Logos/Indonissin.jpg') no-repeat;
     background-size: 300px 199px;
     opacity:0.2;
 }
 .merino::before{
-    background: url('/Client Logos/Merino.jpg') no-repeat;
+    background: url('./Client Logos/Merino.jpg') no-repeat;
     background-size: 300px 199px;
     opacity:0.2;
 
 
 }
 .rt::before{
-    background: url('/Client Logos/RT Packaging.jpg') no-repeat;
+    background: url('./Client Logos/RT Packaging.jpg') no-repeat;
     background-size: 300px 199px;
     opacity:0.2;
 }
 .sang::before{
-    background: url('/Client Logos/Sangneriya Spinning mills ltd..jpg') no-repeat;
+    background: url('./Client Logos/Sangneriya Spinning mills ltd..jpg') no-repeat;
     background-size: 300px 199px;
     opacity:0.2;
 }
 .skiper::before{
-    background: url('/Client Logos/Skipper seil.png') no-repeat;
+    background: url('./Client Logos/Skipper seil.png') no-repeat;
     background-size: 300px 199px;
     opacity:0.2;
 
 }
 .unipro::before{
-    background: url('/Client Logos/Uniproduct India Ltd..jpg') no-repeat;
+    background: url('./Client Logos/Uniproduct India Ltd..jpg') no-repeat;
     background-size: 300px 199px;
     opacity:0.2;
 
 }
 .veeba::before{
-    background: url('/Client Logos/Veeba foods.jpg') no-repeat;
+    background: url('./Client Logos/Veeba foods.jpg') no-repeat;
     background-size: 300px 199px;
     opacity:0.2;
 
 }
 .yansefu::before{
-    background: url('/Client Logos/Yansefu Inks.jpg') no-repeat;
+    background: url('./Client Logos/Yansefu Inks.jpg') no-repeat;
     background-size: 300px 199px;
     opacity:0.2;
 
@@ -279,4 +300,15 @@ footer .social{
 
 .contact-us .icons{
     color:darkgreen;
+}
+
+
+/*Services*/
+.services-wrapper .heading{
+    text-align: center;
+}
+
+.services-wrapper .row img{
+    height:300px;
+    width:400px;
 }
