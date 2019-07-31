@@ -184,16 +184,18 @@ footer .social{
     font-size: large;
 }
 .flip {
-    height: 199px;
-    width: 350px;
+    height: 169px;
+    width: 250px;
     margin-bottom:85px;
     margin-top:25px;
+    
+  
     
 
 }
 .flip img {
-    width: 350px;
-    height: 199px;
+    width: 250px;
+    height: 169px;
 }
 .flip .back {
     
@@ -202,6 +204,10 @@ footer .social{
     
     position: relative;
     
+}
+.mid{
+    margin-left:8%;
+    margin-right:8%;
 }
 
 .back::before{
@@ -217,7 +223,7 @@ footer .social{
     background:url('./Client Logos/Ajmer Industries.jpg') no-repeat;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    background-size: 350px 199px;
+    background-size: 250px 169px;
     background-color:lightblue;
     opacity:0.1;
     
@@ -227,14 +233,14 @@ footer .social{
     background: url('./Client Logos/Berger.jpg');
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    background-size: 350px 199px;
+    background-size: 250px 169px;
     opacity:0.2;
 }
 .bikaji::before{
     background: url('./Client Logos/Bikaji.jpg') no-repeat;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    background-size: 350px 199px;
+    background-size: 250px 169px;
     opacity:0.2;
 
 }
@@ -242,7 +248,7 @@ footer .social{
     background: url('./Client Logos/Carlsberg.jpg') no-repeat;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    background-size: 350px 199px;
+    background-size: 250px 169px;
     opacity:0.2;
 
 }
@@ -250,7 +256,7 @@ footer .social{
     background: url('./Client Logos/Creambell.jpg') no-repeat;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    background-size: 350px 199px;
+    background-size: 250px 169px;
     opacity:0.2;
 
 }
@@ -258,14 +264,14 @@ footer .social{
     background: url('./Client Logos/Ginni international.jpg') no-repeat;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    background-size: 350px 199px;
+    background-size: 250px 169px;
     opacity:0.2;
 }
 .gls::before{
     background: url('./Client Logos/GLS Film industries.jpg') no-repeat;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    background-size: 350px 199px;
+    background-size: 250px 169px;
     opacity:0.2;
 
 }
@@ -273,14 +279,14 @@ footer .social{
     background: url('./Client Logos/Indonissin.jpg') no-repeat;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    background-size: 350px 199px;
+    background-size: 250px 169px;
     opacity:0.2;
 }
 .merino::before{
     background: url('./Client Logos/Merino.jpg') no-repeat;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    background-size: 350px 199px;
+    background-size: 250px 169px;
     opacity:0.2;
 
 
@@ -289,21 +295,21 @@ footer .social{
     background: url('./Client Logos/RT Packaging.jpg') no-repeat;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    background-size: 350px 199px;
+    background-size: 250px 169px;
     opacity:0.2;
 }
 .sang::before{
-    background: url('./Client Logos/Sangneriya Spinning mills ltd..jpg') no-repeat;
+    background: url('./Client Logos/Neha Wudlam.png') no-repeat;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    background-size: 350px 199px;
+    background-size: 250px 169px;
     opacity:0.2;
 }
 .skiper::before{
     background: url('./Client Logos/Skipper seil.png') no-repeat;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    background-size: 350px 199px;
+    background-size: 250px 169px;
     opacity:0.2;
 
 }
@@ -311,7 +317,7 @@ footer .social{
     background: url('./Client Logos/Uniproduct India Ltd..jpg') no-repeat;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    background-size: 350px 199px;
+    background-size: 250px 169px;
     opacity:0.2;
 
 }
@@ -319,7 +325,7 @@ footer .social{
     background: url('./Client Logos/Veeba foods.jpg') no-repeat;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    background-size: 350px 199px;
+    background-size: 250px 169px;
     opacity:0.2;
 
 }
@@ -327,7 +333,7 @@ footer .social{
     background: url('./Client Logos/Yansefu Inks.jpg') no-repeat;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    background-size: 350px 199px;
+    background-size: 250px 169px;
     opacity:0.2;
 
 }
@@ -336,10 +342,10 @@ footer .social{
     color:darkgreen;
 }
 .front{
-    box-shadow: 1px 0px 1px 0px #211b1b;
+    box-shadow: 3px 4px 3px 3px #e8f7df;
 }
 .back{
-    box-shadow: 1px 0px 1px 0px #211b1b;
+    box-shadow: 3px 4px 3px 3px #e8f7df;
 }
 
 
@@ -349,6 +355,6 @@ footer .social{
 }
 
 .services-wrapper .row img{
-    height:350px;
+    height:250px;
     width:400px;
 }
