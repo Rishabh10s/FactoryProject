@@ -73,8 +73,9 @@ ul .nav-link:hover{
     font-weight: 800;
 }
 
-.dropdown-menu{
-    left : -100px;
+.dropleft .dropdown-menu {
+    top: 37px !important;
+    left: -122px !important;
 }
 
 .carousel-container{
@@ -311,4 +312,16 @@ footer .social{
 .services-wrapper .row img{
     height:300px;
     width:400px;
+}
+/*Boiler1*/
+.main-heading{
+    margin-top:20px;
+    text-align: center;
+}
+.products-images{
+    height: 250px;
+    width: 300px;
+}
+.products .row{
+    height:310px;
 }
