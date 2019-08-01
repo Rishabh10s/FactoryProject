@@ -89,13 +89,13 @@ ul .nav-link:hover{
 .carousel{
     padding:30px 0px 0px 0px;
 
-    width: 100%;
+    width: 80%;
     margin:0px auto 50px auto;
     height:500px;
     
 }
 .carousel-item img{
-    height: 500px;
+    height: 460px;
     width : 100%;
     
 }
@@ -369,6 +369,10 @@ footer .social{
     height: 250px;
     width: 300px;
 }
+.products-images:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .products .row{
     height:310px;
 }
