@@ -178,6 +178,19 @@ footer .social{
 .contact-us-p{
     text-align:center;
 }
+
+.contact-us .icons{    
+    -webkit-transition: 0.6s ease-out;
+    -moz-transition:  0.6s ease-out;
+    transition:  0.6s ease-out;   
+   
+}
+.contact-us .icons:hover{
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg); 
+}
+
 /*about us */
 
 .para{
