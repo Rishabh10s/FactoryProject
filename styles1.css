@@ -407,3 +407,153 @@ footer .social{
 .products .row{
     height:310px;
 }
+
+@media (min-width: 992px) and (max-width: 1199px){
+    /*navbar for desktop and laptop screens*/
+    .navbar-nav .links a{
+        padding-left:0px !important;
+        padding-right:0px !important;
+    }
+
+    /*Services*/
+    .services-wrapper .row img{
+        width:300px !important;
+        height: 200px !important;
+        margin-left: 5%;
+    }
+
+    .services-wrapper{
+        margin-bottom: 70px !important;
+    }
+
+    .footer-link{
+        margin : 0px 103px;
+    }
+    
+    footer .social{
+        margin: 0px 25px !important;
+
+    }
+
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .text-brand{
+        padding-left:0px;
+    }
+    
+    .navbar-brand img{
+        width: 125px !important;
+        height: 75px !important;
+    }
+
+    .text-brand h2{
+        
+        font-size: 25px !important;
+    }
+
+    .text-brand h3{
+        font-size: 20px !important;
+    }   
+    .navbar-nav .links a{
+        font-size: 12px !important;
+        padding-left:0px !important;
+        padding-right:0px !important;
+    } 
+    /*Services*/
+    .services-wrapper .row img{
+        width:250px !important;
+        height: 175px !important;
+        
+    }
+
+    .services-wrapper{
+        margin-bottom: 115px !important;
+        
+    }
+
+    .services-wrapper .inner-heading h3{
+        font-size: 25px !important;
+    }
+    
+    .services-wrapper .col-md-7 p{
+        font-size: 13px !important;
+    }
+
+    .footer-link{
+        margin : 0px 68px;
+    }
+
+    footer .social{
+        margin: 0px 19px !important;
+
+    }
+     
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+}
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+@media (min-width: 320px) and (max-width: 767px) {
+    /*Services*/
+    .navbar-brand img{
+        display : none!important;
+    }
+    .text-brand h2{
+        
+        font-size: 25px !important;
+    }
+
+    .text-brand h3{
+        font-size: 20px !important;
+    }   
+    .services-wrapper .row img{
+        width: 170px !important;
+        height: 120px !important;
+        margin-left:20%;
+    }
+    .services-wrapper{
+        margin-bottom: 115px !important;
+        
+    }
+
+    .services-wrapper .inner-heading h3{
+        font-size: 25px !important;
+    }
+    
+    .services-wrapper .col-md-7 p{
+        font-size: 13px !important;
+    }
+
+    .footer-link{
+        font-size: 13px;
+        margin : 0px 8px !important;
+    }
+
+    .footer-second{
+        margin-bottom:3px;
+        font-size : 10px;
+    }
+    footer .social{
+        margin: 0px 25px !important;
+        font-size: 18px;
+    }
+    footer .copyright{
+        font-size: 10px;
+    }
+}
