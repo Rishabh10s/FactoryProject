@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Varela&display=swap" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles1.css">
-  <title>Document</title>
+  <title>MHP thermal engineers</title>
 </head>
 
 
@@ -20,11 +20,11 @@
   <nav class="navbar navbar-inverse navbar-custom navbar-expand-lg bg-secondary">
 
         <!-- Links -->
-        <a class="navbar-brand nav-link" href="#">
+        <a class="navbar-brand nav-link index" href="#">
             <img src="./assets/pics/transparentlogo.png" alt="Logo" style="padding:3px 0px;">
         </a>
         
-        <a class="nav-link text-brand" href="#">
+        <a class="nav-link text-brand index" href="#">
             <h2>MHP </h2>
             <div>
                 <h3>Thermal Engineers</h3>
@@ -40,8 +40,8 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item links">
-            <span class = "span-class">
-                <a class="nav-link" href="./index.html"><i class="fa fa-home">  </i>  Home</a>
+            <span class = "span-class index">
+                <a class="nav-link" class="index" href="#"><i class="fa fa-home">  </i>  Home</a>
             </span>
                   
             
@@ -49,23 +49,23 @@
           <li class = "nav-item links dropdown">
             <a class = "nav-link" href = "#" data-toggle = "dropdown"><i class="fa fa-gift" aria-hidden="true">  </i>  Products</a>
             <div class = "dropdown-menu">
-              <a class = "nav-link dropdown-item" href = "./boilerAuxiliary.html">Boiler Auxiliary</a>
-              <a class = "nav-link dropdown-item" href = "./BoilerPCS.html">Boiler PCS</a>
-              <a class = "nav-link dropdown-item" href = "./BoilerFCS.html">Boiler FCS</a>
+              <a class = "nav-link dropdown-item boileraux" href = "#">Boiler Auxiliary</a>
+              <a class = "nav-link dropdown-item boilerpcs" href = "#">Boiler PCS</a>
+              <a class = "nav-link dropdown-item boilerfcs" href = "#">Boiler FCS</a>
             </div>
           </li>
           <li class="nav-item links">
-            <a class="nav-link" href="./services.html"><i class="fa fa-wrench" aria-hidden="true">  </i>  Services</a>
+            <a class="nav-link services" href="#"><i class="fa fa-wrench" aria-hidden="true">  </i>  Services</a>
           </li>
           <li class = "nav-item links">
-            <a class = "nav-link" href = "./about.html"><i class="fa fa-id-card-o" aria-hidden="true">  </i>  About us</a>
+            <a class = "nav-link about" href = "#"><i class="fa fa-id-card-o" aria-hidden="true">  </i>  About us</a>
 
           </li>
           <li class="nav-item links" style = "display:none">
             <a class="nav-link" href="#"><i class="fa fa-user-plus" aria-hidden="true">  </i>  Careers</a>
           </li>
           <li class="nav-item links">
-            <a class="nav-link" href="./ContactUs.html"><i class="fa fa-mobile" aria-hidden="true">  </i>  Contact </a>
+            <a class="nav-link contact" href="#"><i class="fa fa-mobile" aria-hidden="true">  </i>  Contact </a>
           </li>
           <li class = "nav-item links dropleft">
             <a class = "nav-link dropdown-toggle" href = "#" data-toggle = "dropdown"><i class="fa fa-user" aria-hidden="true"></i></a>
@@ -76,6 +76,7 @@
         </ul>
       </div>
     </nav>
+    
   <section id="Home">
 
     <div class="container-fluid carousel-container">
@@ -152,6 +153,10 @@
     </div>
   </section>
 
+  <div id="ajax-cont"></div>
+
+
+
 
 <div id="body"></div>
   <footer class="page-footer">
@@ -160,11 +165,11 @@
 
         <ul style="text-align: center; margin : 0px auto; padding : 0px; ">
           <li class="footer-link">
-            <a href="#">About Us</a>
+            <a class="about" href="#">About Us</a>
           </li>
 
           <li class="footer-link">
-            <a href="#">Contact Us</a>
+            <a class="contact" href="#">Contact Us</a>
           </li>
 
           <li class="footer-link">
@@ -197,6 +202,8 @@
   </footer>
 </div>
 
+
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -206,8 +213,58 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.about').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').show();
+        $('#ajax-cont').load('about.html')
+        
+      })
+      $('.index').click(function(){
+        $('#ajax-cont').hide();
+        $('#Home').show();
+        
+        
+      })
 
+      $('.contact').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('ContactUs.html');
+        $('#ajax-cont').show();
+        
 
+      })
+      $('.services').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('services.html');
+        $('#ajax-cont').show();
+      })
+      $('.boileraux').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('boilerAuxiliary.html');
+        $('#ajax-cont').show();
+      })
+      $('.boilerpcs').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('BoilerPCS.html');
+        $('#ajax-cont').show();
+      })
+      $('.boilerfcs').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('BoilerFCS.html');
+        $('#ajax-cont').show();
+      })
+    })
+    </script>
+    
+    <script src="jquery.flip.min.js"></script>
+   
+    
   
 </body>
 
