@@ -18,11 +18,10 @@ body{
     padding-bottom:160px;   /* Height of the footer */
  }
 body{
-    background-color:rgba(240,248,255,0.2) !important;
-    
+    background-color:rgba(240,248,255,0.2) !important;  
     height:100%;
     margin:0;
-   padding:0;
+    padding:0;
 }
 
 .bg-secondary
@@ -35,6 +34,7 @@ body{
 }
 
 .navbar{
+    
     height: 80px;
     box-shadow:0px 0px 12px 0px;
 }
@@ -117,8 +117,14 @@ ul .nav-link:hover{
     width : 100%;
     
 }
+.home-columns{
+    margin-bottom:3em;
+}
 .home-cards{
-    height: 300px;
+    height: 100%;
+}
+.card-heading{
+    text-align:center;
 }
 
 .card-body p{
@@ -510,10 +516,18 @@ footer .social{
   */
   
 @media (min-width: 320px) and (max-width: 767px) {
-    /*Services*/
-    .navbar-brand img{
-        display : none!important;
+    .nav-link{
+        margin-left:0px;
     }
+    
+    .text-brand{
+        padding-left:0px;
+    }
+    
+    .navbar-brand img{
+        display: none;
+    }
+
     .text-brand h2{
         
         font-size: 25px !important;
@@ -522,6 +536,17 @@ footer .social{
     .text-brand h3{
         font-size: 20px !important;
     }   
+    .navbar-nav .links a{
+        font-size: 12px !important;
+        padding-left:0px !important;
+        padding-right:0px !important;
+    } 
+    
+    .navbar{
+        z-index:10;
+    }
+    /*Services*/
+
     .services-wrapper .row img{
         width: 170px !important;
         height: 120px !important;
