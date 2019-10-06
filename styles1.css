@@ -1,7 +1,8 @@
 *{
     box-sizing: border-box;
     font-family: 'Varela', sans-serif;
-    
+    margin:0px;
+    padding:0px;
     
 }
 html{height:100%;}
@@ -29,7 +30,6 @@ body{
 {
     background-color:rgba(240,248,255,0.2) !important;
 }
-
 
 .carousel-container{
     padding: 15px 15px;
@@ -346,6 +346,9 @@ footer .social{
     position: absolute;
 
 }
+.hrz{
+    display: none;
+}
 
 .navbar{
     height: 80px;
@@ -514,6 +517,33 @@ ul .nav-link:hover{
       -moz-transform: rotateY(720deg);
       transform: rotateY(720deg); 
 }
+
+
+.hrz{
+    list-style-type:none;
+    display:block;
+    width:100%;
+    
+}
+.hrz a li{
+   
+    float:left;
+    width:33%;
+    border: 2px solid black;
+    line-height: 2;
+    text-align: center;
+    background-color:#4ca10f;
+   
+  
+    
+}
+.hrz a{
+   text-decoration: none;
+   color:whitesmoke;
+   vertical-align: middle;
+   font-family: 'Varela', sans-serif;
+
+}
 }
 
 /* 
@@ -590,8 +620,41 @@ ul .nav-link:hover{
       -moz-transform: rotateY(720deg);
       transform: rotateY(720deg); 
 }
+.hrz{
+    list-style-type:none;
+    display:block;
+    width:100%;
+    
+}
+.hrz a li{
+   
+    float:left;
+    width:33%;
+    border: 2px solid black;
+    line-height: 2;
+    text-align: center;
+    background-color:#4ca10f;
+   
+  
+    
+}
+.hrz a{
+   text-decoration: none;
+   color:whitesmoke;
+   vertical-align: middle;
+   font-family: 'Varela', sans-serif;
+
+}
 }
   
+
+
+
+
+
+
+
+
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
@@ -667,9 +730,59 @@ ul .nav-link:hover{
       -moz-transform: rotateY(720deg);
       transform: rotateY(720deg); 
 }
+.hrz{
+    list-style-type:none;
+    display:block;
+    width:100%;
+    
+}
+.hrz a li{
+   
+    float:left;
+    width:33%;
+    border: 2px solid black;
+    line-height: 2;
+    text-align: center;
+    background-color:#4ca10f;
+   
+  
+    
+}
+.hrz a{
+   text-decoration: none;
+   color:whitesmoke;
+   vertical-align: middle;
+   font-family: 'Varela', sans-serif;
+
+}
+}
 @media (min-width: 320px) and (max-width: 400px){
     .navbar-brand img{
         display: none;
     }
-}
+    .hrz{
+        list-style-type:none;
+        display:block;
+        width:100%;
+        
+    }
+    .hrz a li{
+       
+        float:left;
+        width:33%;
+        border: 2px solid black;
+        line-height: 2;
+        text-align: center;
+        background-color:#4ca10f;
+       
+      
+        
+    }
+    .hrz a{
+       text-decoration: none;
+       color:whitesmoke;
+       vertical-align: middle;
+       font-family: 'Varela', sans-serif;
+    
+    }
 }

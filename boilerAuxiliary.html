@@ -1,5 +1,11 @@
 
     <!--Products-->
+    <ul class="hrz">
+            <a class="boileraux" href="#"><li><i class="fa fa-cogs" aria-hidden="true"></i> Boiler auxiliary</li></a>
+            <a class="boilerpcs" href="#"><li><i class="fa fa-fire-extinguisher" aria-hidden="true"></i> Boiler PCS</li></a>
+            <a class="boilerfcs" href="#"><li><i class="fa fa-tachometer" aria-hidden="true"></i> Boiler FCS</li></a>
+        
+    </ul>
     <div class="container products">
         <h1 class="main-heading">Boiler Auxiliary</h1>
         <div class="row">
@@ -88,4 +94,47 @@
             </div>
         </div>    
     </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.about').click(function(){
+            $('#Home').hide();
+            $('#ajax-cont').show();
+            $('#ajax-cont').load('about.html')
+            
+          })
+          $('.index').click(function(){
+            $('#ajax-cont').hide();
+            $('#Home').show();
+            
+            
+          })
     
+          $('.contact').click(function(){
+            $('#Home').hide();
+            $('#ajax-cont').load('ContactUs.html');
+            $('#ajax-cont').show();
+            
+    
+          })
+          $('.services').click(function(){
+            $('#Home').hide();
+            $('#ajax-cont').load('services.html');
+            $('#ajax-cont').show();
+          })
+          $('.boileraux').click(function(){
+            $('#Home').hide();
+            $('#ajax-cont').load('boilerAuxiliary.html');
+            $('#ajax-cont').show();
+          })
+          $('.boilerpcs').click(function(){
+            $('#Home').hide();
+            $('#ajax-cont').load('BoilerPCS.html');
+            $('#ajax-cont').show();
+          })
+          $('.boilerfcs').click(function(){
+            $('#Home').hide();
+            $('#ajax-cont').load('BoilerFCS.html');
+            $('#ajax-cont').show();
+          })
+        })
+        </script>
