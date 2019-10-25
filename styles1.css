@@ -744,16 +744,16 @@ ul .nav-link:hover{
     line-height: 2;
     text-align: center;
     background-color:#4ca10f;
-   
-  
+    height:68px;
+    
     
 }
 .hrz a{
    text-decoration: none;
    color:whitesmoke;
-   vertical-align: middle;
+   
    font-family: 'Varela', sans-serif;
-
+   vertical-align: middle;
 }
 }
 @media (min-width: 320px) and (max-width: 400px){
@@ -774,10 +774,11 @@ ul .nav-link:hover{
         line-height: 2;
         text-align: center;
         background-color:#4ca10f;
-       
+        
       
         
     }
+ 
     .hrz a{
        text-decoration: none;
        color:whitesmoke;
