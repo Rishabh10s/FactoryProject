@@ -5,6 +5,7 @@
     padding:0px;
     
 }
+
 html{height:100%;}
 body{
     min-height:100%;
@@ -16,7 +17,7 @@ body{
 }
 #body {
     padding:10px;
-    padding-bottom:160px;   /* Height of the footer */
+    padding-bottom:460px;   /* Height of the footer */
  }
 body{
     background-color:rgba(240,248,255,0.2) !important;  
