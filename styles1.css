@@ -20,11 +20,17 @@ body {
   padding: 10px;
   padding-bottom: 460px; /* Height of the footer */
 }
+
 body {
   background-color: rgba(240, 248, 255, 0.2) !important;
   height: 100%;
   margin: 0;
   padding: 0;
+
+}
+
+.rotateImg{
+  transform: rotate(90deg);
 }
 
 .bg-secondary {
