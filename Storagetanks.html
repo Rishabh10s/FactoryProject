@@ -1,0 +1,120 @@
+<!--Products-->
+<div class="container products">
+    <h1 class="main-heading">Boiler Pollution Control System</h1>
+    <div class="row">
+        <div class="heading" center>
+            <h3>MS & SS Storage Tanks</h3>
+        </div>
+        <div class="content">
+            <div class="float-md-right float-lg-right img-right">
+                <img src="./assets/pics/Boiler PCS/Bag Filter.jpg" alt="Bag Filter">
+            </div>
+            <p class="products-description">
+                Storage tanks are containers that hold liquids, compressed gases or mediums used for the short- or
+                long-term storage of heat or cold. The term can be used for reservoirs, and for manufactured containers.
+                These storage containers / tanks are made up of Mild steel and stainless steel. (Photo attached by the
+                name of MS tank)
+            </p>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="heading">
+            <h3>Pressure Vessels</h3>
+        </div>
+        <div class="content">
+            <!-- <div class="float-md-left float-lg-left img-left">
+                <img src="./assets/pics/Boiler PCS/Wet scrubber.JPG">
+            </div> -->
+            <div>
+                <p class="products-description">
+                    A pressure vessel is a container designed to hold gases or liquids at a pressure substantially
+                    different from the ambient pressure. Design involves parameters such as maximum safe operating
+                    pressure and temperature, safety factor, corrosion allowance and minimum design temperature (for
+                    brittle fracture). Hydrostatic tests use water, but pneumatic tests use air or another gas.
+                    Hydrostatic testing is preferred, because it is a safer method, as much less energy is released if a
+                    fracture occurs during the test (water does not rapidly increase its volume when rapid
+                    depressurization occurs, unlike gases like air, which fail explosively)
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<div id="body"></div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.about').click(function () {
+            $('#Home').hide();
+            $('#ajax-cont').show();
+            $('#ajax-cont').load('about.html')
+
+        })
+        $('.index').click(function () {
+            $('#ajax-cont').hide();
+            $('#Home').show();
+
+
+        })
+
+        $('.contact').click(function () {
+            $('#Home').hide();
+            $('#ajax-cont').load('ContactUs.html');
+            $('#ajax-cont').show();
+
+
+        })
+
+        $('.boileraux').click(function () {
+            $('#Home').hide();
+            $('#ajax-cont').load('boilerAuxiliary.html');
+            $('#ajax-cont').show();
+        })
+        $('.boilerpcs').click(function () {
+            $('#Home').hide();
+            $('#ajax-cont').load('BoilerPCS.html');
+            $('#ajax-cont').show();
+        })
+        $('.boilerfcs').click(function () {
+            $('#Home').hide();
+            $('#ajax-cont').load('BoilerFCS.html');
+            $('#ajax-cont').show();
+        })
+        $('.boileraux').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('boilerAuxiliary.html');
+        $('#ajax-cont').show();
+      })
+      $('.boilerpcs').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('BoilerPCS.html');
+        $('#ajax-cont').show();
+      })
+      $('.boilerass').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('Boileraux.html');
+        $('#ajax-cont').show();
+      })
+      $('.boilerint').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('Boilerint.html');
+        $('#ajax-cont').show();
+      })
+      $('.boilerfluid').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('Boilerfluid.html');
+        $('#ajax-cont').show();
+      })
+      $('.boilerstruc').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('Boilerstruc.html');
+        $('#ajax-cont').show();
+      })
+      $('.storagetanks').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('Storagetanks.html');
+        $('#ajax-cont').show();
+      })
+    })
+</script>

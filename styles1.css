@@ -445,10 +445,20 @@ footer .social {
   height: 95px;
   width: 150px;
 }
+
+@media (min-width: 768px){
+    
+.client-coro{
+    display: none;
+}
+}
+
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
+
+
 
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-brand img {
@@ -642,6 +652,9 @@ footer .social {
     vertical-align: middle;
     font-family: "Varela", sans-serif;
   }
+  .clients-flip{
+      display: none;
+  }
 }
 
 /* 
@@ -782,6 +795,9 @@ footer .social {
   footer .copyright {
     font-size: 10px;
   }
+  .clients-flip{
+      display: none;
+  }
 }
 @media (min-width: 320px) and (max-width: 400px) {
   .navbar-brand img {
@@ -806,5 +822,8 @@ footer .social {
     color: whitesmoke;
     vertical-align: middle;
     font-family: "Varela", sans-serif;
+  }
+  .clients-flip{
+      display: none;
   }
 }

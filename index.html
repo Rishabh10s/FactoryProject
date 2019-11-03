@@ -53,6 +53,7 @@
               <a class = "nav-link dropdown-item boileraux" href = "#">Boiler Auxiliary</a>
               <a class = "nav-link dropdown-item boilerpcs" href = "#">Boiler pollution control system</a>
               <a class = "nav-link dropdown-item boilerfcs" href = "#">Boiler fuel consumption system</a>
+              <a class = "nav-link dropdown-item storagetanks" href = "#">Storage Tanks</a>
             </div>
           </li>
           <li class="nav-item links dropdown">
@@ -96,7 +97,7 @@
             <li data-target="#carouselId" data-slide-to="2"></li>
             <li data-target="#carouselId" data-slide-to="3"></li>
             <li data-target="#carouselId" data-slide-to="4"></li>
-
+            <li data-target="#carouselId" data-slide-to="5"></li>
           </ul>
           <div class="carousel-item active">
             <img src="./assets/pics/Ash Handling system.jpg" class="d-block w-100 h-50">
@@ -113,6 +114,9 @@
           <div class="carousel-item">
             <img src="assets/pics/chimney.jpg" class="d-block w-100 h-50">
           </div>
+          <div class="carousel-item">
+              <img src="assets/pics/Can be used for corrousal.jpg" class="d-block w-100 h-50">
+            </div>
         </div>
         <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -215,9 +219,9 @@
     </div>
     <div class="row">
       <div class="col-md-4" style="margin-left : auto; margin-right : auto; text-align : center;">
-        <a href=#><i class="fa fa-facebook-official fa-lg social" aria-hidden="true"></i></a>
-        <a href=#><i class="fa fa-twitter fa-lg social" aria-hidden="true"></i></a>
-        <a href=#><i class="fa fa-linkedin fa-lg social" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/mhpengineers/?ref=bookmarks"><i class="fa fa-facebook-official fa-lg social" aria-hidden="true"></i></a>
+      
+        <a href="https://www.linkedin.com/company/mhp-thermal-engineers2015/"><i class="fa fa-linkedin fa-lg social" aria-hidden="true"></i></a>
       </div>
     </div>
 
@@ -236,8 +240,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    
+    
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     
     <script type="text/javascript">
@@ -291,6 +295,11 @@
       $('.boilerstruc').click(function(){
         $('#Home').hide();
         $('#ajax-cont').load('Boilerstruc.html');
+        $('#ajax-cont').show();
+      })
+      $('.storagetanks').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('Storagetanks.html');
         $('#ajax-cont').show();
       })
     })

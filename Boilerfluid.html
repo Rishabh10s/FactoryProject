@@ -13,12 +13,13 @@
                 transfers to the desired processes.
                 MHP Thermal Engineers has installed hundreds of thermic heating system equipment for various clients in
                 India and have made them operational after the completion of all legal paper work.
-
+                <ul>
+                    <li>Installation / Assembly</li>
+                    <li>Maintenance</li>
+                    <li>Operational Approval </li>
+                </ul>
             </p>
-            <div class="float-md-left float-lg-left img-left rotateImg" style="padding-top: 13px;">
-                <img src="./assets/pics/services/thermic1.jpg">
-
-            </div>
+           
 
             <div class="float-md-left float-lg-left img-left">
                 <img src="./assets/pics/services/thermic3.jpg">
@@ -28,3 +29,83 @@
         </div>
 
     </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.about').click(function () {
+            $('#Home').hide();
+            $('#ajax-cont').show();
+            $('#ajax-cont').load('about.html')
+
+        })
+        $('.index').click(function () {
+            $('#ajax-cont').hide();
+            $('#Home').show();
+
+
+        })
+
+        $('.contact').click(function () {
+            $('#Home').hide();
+            $('#ajax-cont').load('ContactUs.html');
+            $('#ajax-cont').show();
+
+
+        })
+        $('.services').click(function () {
+            $('#Home').hide();
+            $('#ajax-cont').load('services.html');
+            $('#ajax-cont').show();
+        })
+        $('.boileraux').click(function () {
+            $('#Home').hide();
+            $('#ajax-cont').load('boilerAuxiliary.html');
+            $('#ajax-cont').show();
+        })
+        $('.boilerpcs').click(function () {
+            $('#Home').hide();
+            $('#ajax-cont').load('BoilerPCS.html');
+            $('#ajax-cont').show();
+        })
+        $('.boilerfcs').click(function () {
+            $('#Home').hide();
+            $('#ajax-cont').load('BoilerFCS.html');
+            $('#ajax-cont').show();
+        })
+        $('.boileraux').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('boilerAuxiliary.html');
+        $('#ajax-cont').show();
+      })
+      $('.boilerpcs').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('BoilerPCS.html');
+        $('#ajax-cont').show();
+      })
+      $('.boilerass').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('Boileraux.html');
+        $('#ajax-cont').show();
+      })
+      $('.boilerint').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('Boilerint.html');
+        $('#ajax-cont').show();
+      })
+      $('.boilerfluid').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('Boilerfluid.html');
+        $('#ajax-cont').show();
+      })
+      $('.boilerstruc').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('Boilerstruc.html');
+        $('#ajax-cont').show();
+      })
+      $('.storagetanks').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('Storagetanks.html');
+        $('#ajax-cont').show();
+      })
+    })
+</script>
