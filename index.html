@@ -52,7 +52,7 @@
             <div class = "dropdown-menu">
               <a class = "nav-link dropdown-item boileraux" href = "#">Boiler Auxiliary</a>
               <a class = "nav-link dropdown-item boilerpcs" href = "#">Boiler pollution control system</a>
-              <a class = "nav-link dropdown-item boilerfcs" href = "#">Boiler fuel consumption system</a>
+              <a class = "nav-link dropdown-item boilerfcs" href = "#">Boiler fuel control system</a>
               <a class = "nav-link dropdown-item storagetanks" href = "#">Storage Tanks</a>
             </div>
           </li>
@@ -266,10 +266,14 @@
         
 
       })
-      
       $('.boileraux').click(function(){
         $('#Home').hide();
         $('#ajax-cont').load('boilerAuxiliary.html');
+        $('#ajax-cont').show();
+      })
+      $('.boilerfcs').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('BoilerFCS.html');
         $('#ajax-cont').show();
       })
       $('.boilerpcs').click(function(){

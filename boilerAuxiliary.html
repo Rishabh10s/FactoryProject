@@ -80,7 +80,7 @@
         </div>
         <div class="content">
             <div class="float-md-right float-lg-right img-right">
-                <img src="./assets/pics/Boiler Auxiliary/Chimney.jpg">
+                <img src="./assets/pics/Boiler Auxiliary/FD fan.jpg">
             </div>
             <div>
                 <p class="products-description">
@@ -212,50 +212,35 @@
 
 </div>
 <script type="text/javascript">
-    $(document).ready(function () {
-        $('.about').click(function () {
-            $('#Home').hide();
-            $('#ajax-cont').show();
-            $('#ajax-cont').load('about.html')
+    $(document).ready(function(){
+      $('.about').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').show();
+        $('#ajax-cont').load('about.html')
+        
+      })
+      $('.index').click(function(){
+        $('#ajax-cont').hide();
+        $('#Home').show();
+        
+        
+      })
 
-        })
-        $('.index').click(function () {
-            $('#ajax-cont').hide();
-            $('#Home').show();
+      $('.contact').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('ContactUs.html');
+        $('#ajax-cont').show();
+        
 
-
-        })
-
-        $('.contact').click(function () {
-            $('#Home').hide();
-            $('#ajax-cont').load('ContactUs.html');
-            $('#ajax-cont').show();
-
-
-        })
-        $('.services').click(function () {
-            $('#Home').hide();
-            $('#ajax-cont').load('services.html');
-            $('#ajax-cont').show();
-        })
-        $('.boileraux').click(function () {
-            $('#Home').hide();
-            $('#ajax-cont').load('boilerAuxiliary.html');
-            $('#ajax-cont').show();
-        })
-        $('.boilerpcs').click(function () {
-            $('#Home').hide();
-            $('#ajax-cont').load('BoilerPCS.html');
-            $('#ajax-cont').show();
-        })
-        $('.boilerfcs').click(function () {
-            $('#Home').hide();
-            $('#ajax-cont').load('BoilerFCS.html');
-            $('#ajax-cont').show();
-        })
-        $('.boileraux').click(function(){
+      })
+      $('.boileraux').click(function(){
         $('#Home').hide();
         $('#ajax-cont').load('boilerAuxiliary.html');
+        $('#ajax-cont').show();
+      })
+      $('.boilerfcs').click(function(){
+        $('#Home').hide();
+        $('#ajax-cont').load('BoilerFCS.html');
         $('#ajax-cont').show();
       })
       $('.boilerpcs').click(function(){
