@@ -63,15 +63,14 @@
               <a class = "nav-link dropdown-item boilerint" href = "#">Boiler internal house work</a>
               <a class = "nav-link dropdown-item boilerfluid" href = "#">Thermic fluid heater</a>
               <a class = "nav-link dropdown-item boilerstruc" href = "#">Structure installation</a>
-              
             </div>
           </li>
           <li class = "nav-item links">
             <a class = "nav-link about" href = "#"><i class="fa fa-id-card-o" aria-hidden="true">  </i>  About us</a>
 
           </li>
-          <li class="nav-item links" style = "display:none">
-            <a class="nav-link" href="#"><i class="fa fa-user-plus" aria-hidden="true">  </i>  Careers</a>
+          <li class="nav-item links">
+            <a class="nav-link careers" href="#"><i class="fa fa-user-plus" aria-hidden="true">  </i>  Careers</a>
           </li>
           <li class="nav-item links">
             <a class="nav-link contact" href="#"><i class="fa fa-mobile" aria-hidden="true">  </i>  Contact </a>
@@ -102,7 +101,7 @@
           </li>
 
           <li class="footer-link">
-            <a href="#">Careers</a>
+            <a class="careers" href="#">Careers</a>
           </li>
         </ul>
 
@@ -130,9 +129,6 @@
     <p class="text-center copyright"><i class="fa fa-copyright" aria-hidden="true"> </i> Copyright 2000</p>
   </footer>
 </div>
-
-
-
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -142,88 +138,80 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     
-    
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    
-    <script type="text/javascript">
-    $(document).ready(function(){
-      $('#ajax-cont').load('home.html');
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('#ajax-cont').load('home.html');
+    $('#ajax-cont').show();
+    $('.boileraux').click(function(){
+      $('#Home').hide();
+      $('#ajax-cont').load('boilerAuxiliary.html');
       $('#ajax-cont').show();
-
-      $('.boileraux').click(function(){
-        $('#Home').hide();
-        $('#ajax-cont').load('boilerAuxiliary.html');
-        $('#ajax-cont').show();
-      })
-      $('.about').click(function(){
-        $('#Home').hide();
-        $('#ajax-cont').show();
-        $('#ajax-cont').load('about.html')
-        
-      })
-      $('.index').click(function(){
-       
-        $('#ajax-cont').load('home.html');
-        $('#Home').show();
-        $('#ajax-cont').show();
-        
-      })
-
-      $('.contact').click(function(){
-        $('#Home').hide();
-        $('#ajax-cont').load('ContactUs.html');
-        $('#ajax-cont').show();
-        
-
-      })
-      $('.boileraux').click(function(){
-        $('#Home').hide();
-        $('#ajax-cont').load('boilerAuxiliary.html');
-        $('#ajax-cont').show();
-      })
-      $('.boilerfcs').click(function(){
-        $('#Home').hide();
-        $('#ajax-cont').load('BoilerFCS.html');
-        $('#ajax-cont').show();
-      })
-      $('.boilerpcs').click(function(){
-        $('#Home').hide();
-        $('#ajax-cont').load('BoilerPCS.html');
-        $('#ajax-cont').show();
-      })
-      $('.boilerass').click(function(){
-        $('#Home').hide();
-        $('#ajax-cont').load('Boileraux.html');
-        $('#ajax-cont').show();
-      })
-      $('.boilerint').click(function(){
-        $('#Home').hide();
-        $('#ajax-cont').load('Boilerint.html');
-        $('#ajax-cont').show();
-      })
-      $('.boilerfluid').click(function(){
-        $('#Home').hide();
-        $('#ajax-cont').load('Boilerfluid.html');
-        $('#ajax-cont').show();
-      })
-      $('.boilerstruc').click(function(){
-        $('#Home').hide();
-        $('#ajax-cont').load('Boilerstruc.html');
-        $('#ajax-cont').show();
-      })
-      $('.storagetanks').click(function(){
-        $('#Home').hide();
-        $('#ajax-cont').load('Storagetanks.html');
-        $('#ajax-cont').show();
-      })
     })
-    </script>
-    
-    <script src="jquery.flip.min.js"></script>
-   
-    
-  
+    $('.about').click(function(){
+      $('#Home').hide();
+      $('#ajax-cont').show();
+      $('#ajax-cont').load('about.html');
+    })
+    $('.index').click(function(){
+      $('#ajax-cont').load('home.html');
+      $('#Home').show();
+      $('#ajax-cont').show();
+    })
+    $('.contact').click(function(){
+      $('#Home').hide();
+      $('#ajax-cont').load('ContactUs.html');
+      $('#ajax-cont').show();
+    })
+    $('.boileraux').click(function(){
+      $('#Home').hide();
+      $('#ajax-cont').load('boilerAuxiliary.html');
+      $('#ajax-cont').show();
+    })
+    $('.boilerfcs').click(function(){
+      $('#Home').hide();
+      $('#ajax-cont').load('BoilerFCS.html');
+      $('#ajax-cont').show();
+    })
+    $('.boilerpcs').click(function(){
+      $('#Home').hide();
+      $('#ajax-cont').load('BoilerPCS.html');
+      $('#ajax-cont').show();
+    })
+    $('.boilerass').click(function(){
+      $('#Home').hide();
+      $('#ajax-cont').load('Boileraux.html');
+      $('#ajax-cont').show();
+    })
+    $('.boilerint').click(function(){
+      $('#Home').hide();
+      $('#ajax-cont').load('Boilerint.html');
+      $('#ajax-cont').show();
+    })
+    $('.boilerfluid').click(function(){
+      $('#Home').hide();
+      $('#ajax-cont').load('Boilerfluid.html');
+      $('#ajax-cont').show();
+    })
+    $('.boilerstruc').click(function(){
+      $('#Home').hide();
+      $('#ajax-cont').load('Boilerstruc.html');
+      $('#ajax-cont').show();
+    })
+    $('.storagetanks').click(function(){
+      $('#Home').hide();
+      $('#ajax-cont').load('Storagetanks.html');
+      $('#ajax-cont').show();
+    })
+    $('.careers').click(function(){
+      $('#Home').hide();
+      $('#ajax-cont').load('Careers.html');
+      $('#ajax-cont').show();
+    });
+  })
+  </script>
+  <script src="jquery.flip.min.js"></script>  
 </body>
 
 </html>

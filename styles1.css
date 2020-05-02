@@ -138,6 +138,35 @@ footer .social {
   transform: rotateY(180deg);
 }
 
+/*careers*/
+
+.careers h1 {
+  color: darkgreen;
+  margin-top: 20px;
+  text-align: center;
+}
+.careers .careers-front-image {
+  width: 77vw;
+  height: 30vw;
+}
+.careers-p {
+  margin-top:2vw;
+  text-align: center;
+}
+.careers .form-heading {
+  text-align: center;
+  color: darkgreen;
+}
+.careers .application-form {
+  width: 45vw;
+  margin:0px auto;
+}
+.careers form.application-form>.form-group>label {
+  color: darkgreen;
+}
+.careers form.application-form span.required {
+  color:red;
+}
 /*about us */
 
 .para {
