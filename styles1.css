@@ -18,7 +18,7 @@ body {
 }
 #body {
   padding: 10px;
-  padding-bottom: 400px; /* Height of the footer */
+  padding-bottom: 50vw; /* Height of the footer */
 }
 
 body {
@@ -138,6 +138,35 @@ footer .social {
   transform: rotateY(180deg);
 }
 
+/*careers*/
+
+.careers h1 {
+  color: darkgreen;
+  margin-top: 20px;
+  text-align: center;
+}
+.careers .careers-front-image {
+  width: 77vw;
+  height: 30vw;
+}
+.careers-p {
+  margin-top:2vw;
+  text-align: center;
+}
+.careers .form-heading {
+  text-align: center;
+  color: darkgreen;
+}
+.careers .application-form {
+  width: 45vw;
+  margin:0px auto;
+}
+.careers form.application-form>.form-group>label {
+  color: darkgreen;
+}
+.careers form.application-form span.required {
+  color:red;
+}
 /*about us */
 
 .para {
@@ -356,7 +385,9 @@ footer .social {
   .hrz {
     display: none;
   }
-
+  #body{
+    padding-bottom:20vw;
+  }
   .navbar {
     height: 80px;
     box-shadow: 0px 0px 12px 0px;
@@ -446,7 +477,11 @@ footer .social {
   width: 150px;
 }
 
-@media (min-width: 768px){
+@media (max-width: 992px) {
+  
+}
+
+@media (min-width: 992px){
     
 .client-coro{
     display: none;
@@ -458,9 +493,22 @@ footer .social {
   ##Screen = B/w 768px to 1024px
 */
 
+@media (min-width: 991px) and (max-width: 1200px) {
+  .footer-link {
+    margin: 0px 108px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
 
 
 @media (min-width: 768px) and (max-width: 991px) {
+  #body{
+    padding-bottom: 20vw;
+  }
   .navbar-brand img {
     height: 95px;
     width: 150px;
@@ -524,6 +572,12 @@ footer .social {
     transform: rotateY(720deg);
   }
 
+  .carousel-item img {
+    max-height: 350px;
+  
+    width: 100%;
+  }
+
   .hrz {
     list-style-type: none;
     display: block;
@@ -562,6 +616,9 @@ footer .social {
   footer .social {
     margin: 0px 19px !important;
   }
+  .clients-flip{
+    display: none;
+}
 }
 
 /* 
@@ -570,6 +627,9 @@ footer .social {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+  #body{
+    padding-bottom: 45vw;
+  }
   .navbar-brand img {
     height: 76.4px;
     width: 120px;
@@ -633,6 +693,11 @@ footer .social {
     -moz-transform: rotateY(720deg);
     transform: rotateY(720deg);
   }
+  .carousel-item img {
+    max-height: 280px;
+  
+    width: 100%;
+  }
   .hrz {
     list-style-type: none;
     display: block;
@@ -661,8 +726,18 @@ footer .social {
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
+@media (min-width:320px) and (max-width:479px){
+  .carousel-item img {
+    max-height: 190px;
+    width: 100%;
+  }
+  #body{
+    padding-bottom: 60vw;
+  }
+}
 
 @media (min-width: 320px) and (max-width: 767px) {
+ 
   .nav-link {
     margin-left: 0px;
   }
@@ -779,6 +854,14 @@ footer .social {
     font-size: 13px !important;
   }
 
+  .about-us-wrapper .row .photo img{
+    display: none;
+  }
+
+  .about-us-wrapper .promoters .row img{
+    width: 200px;
+    height: 150px;
+  }
   .footer-link {
     font-size: 13px;
     margin: 0px 8px !important;
