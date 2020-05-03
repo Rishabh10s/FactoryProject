@@ -386,7 +386,7 @@ footer .social {
     display: none;
   }
   #body{
-    padding-bottom:12vw;
+    padding-bottom:20vw;
   }
   .navbar {
     height: 80px;
@@ -492,6 +492,16 @@ footer .social {
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .footer-link {
+    margin: 0px 108px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
 
 
 
